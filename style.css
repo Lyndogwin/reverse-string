@@ -1,9 +1,56 @@
 body {
-    background-color: powderblue;
+    background-color: #7552E9;
+    font-size: 20px;
 }
 h1 {
-    color: indigo;
+    
+}
+div.reverseString {
+    font-family: verdana;
+    font-size: 16px;
+}
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #52E9A3;
+  border: none;
+  color: #7552E9;
+  text-align: center;
+  font-size: 16px;
+  padding: 20px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\03a8'; 
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 10px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: -5px;
 }
 p {
     color: red;
+}
+#referenceIDlikethis {
+
 }

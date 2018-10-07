@@ -7,18 +7,18 @@
 	<h1>Reverse your string here.</h1>
 
 	<script type="text/javascript" src="./functions.js"></script>
-
-	</script>
-	<div>
+	
+	<div class="reverseString">
 		<label for="str">String: </label>
 		<input type="textbox" id="str" name="str">
 	</div>
-	<div class="button">
-		<button type="button" onclick="reverseString()">Reverse</button>
-	</div>
 	<div>
+		<button onclick="reverseString()" class="button" style="vertical-align:middle"><span>Reverse </span>
+		</button>
+	</div>
+	<div class="reverseString">
 		<label for="output">Reversed string is: </label>
-		<input type="textbox" name="output"></input>
+		<output type="text" name="output"></output>
 	</div>
 
 	<p></p>
