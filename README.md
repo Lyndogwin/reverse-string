@@ -3,4 +3,4 @@ My first attempt at html and also I need string reversing code for my day job.
 
 **Update:** Introduced a node server to serve html and attatchments
 
-![example](example.png)
+![example](/serve/example.png)
