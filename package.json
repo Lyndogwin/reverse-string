@@ -1,0 +1,28 @@
+{
+  "name": "reverse-string",
+  "version": "1.0.0",
+  "description": "Academic repository: My first attempt at html and also I need string reversing code for my day job",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lyndogwin/reverse-string.git"
+  },
+  "keywords": [
+    "web",
+    "server"
+  ],
+  "author": "Lyndogwin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lyndogwin/reverse-string/issues"
+  },
+  "homepage": "https://github.com/Lyndogwin/reverse-string#readme",
+  "dependencies": {
+    "connect": "^3.6.6",
+    "express": "^4.16.4",
+    "node": "^11.0.0"
+  }
+}
